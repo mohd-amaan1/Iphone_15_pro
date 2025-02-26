@@ -28,10 +28,6 @@ Check out the live demo [here](https://iphone-15pro-eight.vercel.app/).
 
 ---
 
-Ah, got it! Here's the corrected folder structure:
-
----
-
 ## 📂 Folder Structure  
 ```plaintext
 public
