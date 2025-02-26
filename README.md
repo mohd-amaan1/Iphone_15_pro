@@ -28,46 +28,40 @@ Check out the live demo [here](https://iphone-15pro-eight.vercel.app/).
 
 ---
 
+Ah, got it! Here's the corrected folder structure:
+
+---
+
 ## 📂 Folder Structure  
 ```plaintext
+public
+└── assets
+    ├── images         # Image assets
+    ├── videos         # Video files
+    ├── models         # 3D models
+    ├── react.svg      # React logo
+    └── vite.svg       # Vite logo
+
 src
-│   main.jsx          # Entry point for React
-│   App.jsx           # Main app component
-├── assets            # Images, videos, and 3D models
-├── components        # Reusable UI components
-├── pages             # Page components for routing
-├── styles            # Tailwind CSS configuration and global styles
-└── utils             # Utility functions and helpers
+├── components         # Reusable UI components
+├── constants          # Static constants and configuration
+├── utils              # Utility functions and helpers
+│   App.jsx            # Main app component
+│   index.css          # Global CSS with Tailwind integration
+│   main.jsx           # Entry point for React
+
+.eslintrc.cjs          # ESLint configuration
+.gitignore             # Git ignored files and folders
+index.html             # HTML template for Vite
+package.json           # Project dependencies and scripts
+postcss.config.js      # PostCSS configuration for Tailwind
+tailwind.config.js     # Tailwind CSS configuration
+vite.config.js         # Vite configuration
+README.md              # Project documentation
 ```
 
 ---
 
-## 📦 Installation and Setup  
-1. Clone the repository:  
-    ```bash
-    git clone https://github.com/your-username/iphone-15-pro-clone.git
-    cd iphone-15-pro-clone
-    ```
-2. Install dependencies:  
-    ```bash
-    npm install
-    ```
-3. Start the development server:  
-    ```bash
-    npm run dev
-    ```
-
----
-
-## 🛠️ Deployment  
-This project can be easily deployed on platforms like **Vercel** or **Netlify**.  
-1. Build the project:  
-    ```bash
-    npm run build
-    ```
-2. Deploy the contents of the `dist` folder.  
-
----
 
 ## 📸 Screenshots  
 Include screenshots or a demo GIF showcasing the animations, 3D model interactions, and responsiveness.  
