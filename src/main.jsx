@@ -5,7 +5,7 @@ import "./index.css";
 import * as Sentry from "@sentry/react";
 
 Sentry.init({
-  dsn: "https://3a0d08d3bae155d977d9e7a261addafa@o4507346925256704.ingest.us.sentry.io/4507346927681536",
+  dsn: "https://0edd2de5149420cfc568bf7a1c88192f@o4508885228060672.ingest.us.sentry.io/4508885229764608",
   integrations: [
     Sentry.browserTracingIntegration(),
     Sentry.reactRouterV6BrowserTracingIntegration({
@@ -23,3 +23,5 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <App />
   </React.StrictMode>
 );
+
+
