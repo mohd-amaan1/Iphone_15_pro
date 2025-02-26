@@ -60,8 +60,9 @@ README.md              # Project documentation
 
 
 ## 📸 Screenshots  
-Include screenshots or a demo GIF showcasing the animations, 3D model interactions, and responsiveness.  
 ![image](https://github.com/user-attachments/assets/cf4b0a18-3093-488f-bf56-1ef91146f20a)
+![image1](https://github.com/user-attachments/assets/f17cdd6c-eaec-4be1-ba18-ef762f12f547)
+
 
 
 ---
